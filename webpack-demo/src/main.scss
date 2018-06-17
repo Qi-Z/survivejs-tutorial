@@ -1,0 +1,6 @@
+@import "./variables.scss";
+@import "~bootstrap/scss/bootstrap"; // ~ tells webpack to look from node_modules
+
+body {
+    background: $gray-400; // This color var comes from bootstrap
+}
